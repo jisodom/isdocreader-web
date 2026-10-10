@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<isdoc:Invoice xmlns:isdoc="http://isdoc.cz/namespace/invoice" version="5.2">
+  <isdoc:DocumentType>2</isdoc:DocumentType>
+  <isdoc:ID>DB-2026-003</isdoc:ID>
+  <isdoc:UUID>9C1D2E3F-0000-4000-8000-000000000003</isdoc:UUID>
+  <isdoc:IssueDate>2026-10-01</isdoc:IssueDate>
+  <isdoc:TaxPointDate>2026-10-01</isdoc:TaxPointDate>
+  <isdoc:VATApplicable>true</isdoc:VATApplicable>
+  <isdoc:LocalCurrencyCode>CZK</isdoc:LocalCurrencyCode>
+  <isdoc:ForeignCurrencyCode>EUR</isdoc:ForeignCurrencyCode>
+  <isdoc:CurrRate>25.30</isdoc:CurrRate>
+  <isdoc:RefCurrRate>1</isdoc:RefCurrRate>
+  <isdoc:AccountingSupplierParty>
+    <isdoc:Party>
+      <isdoc:PartyIdentification><isdoc:ID>12345678</isdoc:ID></isdoc:PartyIdentification>
+      <isdoc:PartyName><isdoc:Name>Ukázková dodavatelská s.r.o.</isdoc:Name></isdoc:PartyName>
+      <isdoc:PostalAddress>
+        <isdoc:StreetName>Vinohradská</isdoc:StreetName>
+        <isdoc:BuildingNumber>1234/56</isdoc:BuildingNumber>
+        <isdoc:CityName>Praha 2</isdoc:CityName>
+        <isdoc:PostalZone>12000</isdoc:PostalZone>
+        <isdoc:Country><isdoc:IdentificationCode>CZ</isdoc:IdentificationCode><isdoc:Name>Česká republika</isdoc:Name></isdoc:Country>
+      </isdoc:PostalAddress>
+      <isdoc:PartyTaxScheme><isdoc:CompanyID>CZ12345678</isdoc:CompanyID><isdoc:TaxScheme>VAT</isdoc:TaxScheme></isdoc:PartyTaxScheme>
+    </isdoc:Party>
+  </isdoc:AccountingSupplierParty>
+  <isdoc:AccountingCustomerParty>
+    <isdoc:Party>
+      <isdoc:PartyIdentification><isdoc:ID>11223344</isdoc:ID></isdoc:PartyIdentification>
+      <isdoc:PartyName><isdoc:Name>Zákazník Bratislava s.r.o.</isdoc:Name></isdoc:PartyName>
+      <isdoc:PostalAddress>
+        <isdoc:StreetName>Hlavná</isdoc:StreetName>
+        <isdoc:BuildingNumber>5</isdoc:BuildingNumber>
+        <isdoc:CityName>Bratislava</isdoc:CityName>
+        <isdoc:PostalZone>811 01</isdoc:PostalZone>
+        <isdoc:Country><isdoc:IdentificationCode>SK</isdoc:IdentificationCode><isdoc:Name>Slovensko</isdoc:Name></isdoc:Country>
+      </isdoc:PostalAddress>
+      <isdoc:PartyTaxScheme><isdoc:CompanyID>SK2020000000</isdoc:CompanyID><isdoc:TaxScheme>VAT</isdoc:TaxScheme></isdoc:PartyTaxScheme>
+    </isdoc:Party>
+  </isdoc:AccountingCustomerParty>
+  <isdoc:OriginalDocumentReferences>
+    <isdoc:OriginalDocumentReference id="r1">
+      <isdoc:ID>FV-2026-0099</isdoc:ID>
+      <isdoc:IssueDate>2026-08-15</isdoc:IssueDate>
+    </isdoc:OriginalDocumentReference>
+  </isdoc:OriginalDocumentReferences>
+  <isdoc:InvoiceLines>
+    <isdoc:InvoiceLine>
+      <isdoc:ID>1</isdoc:ID>
+      <isdoc:InvoicedQuantity unitCode="C62">-1</isdoc:InvoicedQuantity>
+      <isdoc:LineExtensionAmountCurr>-200.00</isdoc:LineExtensionAmountCurr>
+      <isdoc:LineExtensionAmount>-5060.00</isdoc:LineExtensionAmount>
+      <isdoc:LineExtensionAmountTaxInclusiveCurr>-200.00</isdoc:LineExtensionAmountTaxInclusiveCurr>
+      <isdoc:LineExtensionAmountTaxInclusive>-5060.00</isdoc:LineExtensionAmountTaxInclusive>
+      <isdoc:LineExtensionTaxAmount>0</isdoc:LineExtensionTaxAmount>
+      <isdoc:UnitPrice>5060.00</isdoc:UnitPrice>
+      <isdoc:UnitPriceTaxInclusive>5060.00</isdoc:UnitPriceTaxInclusive>
+      <isdoc:ClassifiedTaxCategory>
+        <isdoc:Percent>0</isdoc:Percent>
+        <isdoc:VATCalculationMethod>0</isdoc:VATCalculationMethod>
+      </isdoc:ClassifiedTaxCategory>
+      <isdoc:Item><isdoc:Description>Sleva za reklamované zboží</isdoc:Description></isdoc:Item>
+    </isdoc:InvoiceLine>
+  </isdoc:InvoiceLines>
+  <isdoc:TaxTotal>
+    <isdoc:TaxSubTotal>
+      <isdoc:TaxableAmountCurr>-200.00</isdoc:TaxableAmountCurr>
+      <isdoc:TaxableAmount>-5060.00</isdoc:TaxableAmount>
+      <isdoc:TaxAmountCurr>0</isdoc:TaxAmountCurr>
+      <isdoc:TaxAmount>0</isdoc:TaxAmount>
+      <isdoc:TaxInclusiveAmountCurr>-200.00</isdoc:TaxInclusiveAmountCurr>
+      <isdoc:TaxInclusiveAmount>-5060.00</isdoc:TaxInclusiveAmount>
+      <isdoc:TaxCategory><isdoc:Percent>0</isdoc:Percent></isdoc:TaxCategory>
+    </isdoc:TaxSubTotal>
+    <isdoc:TaxAmountCurr>0</isdoc:TaxAmountCurr>
+    <isdoc:TaxAmount>0</isdoc:TaxAmount>
+  </isdoc:TaxTotal>
+  <isdoc:LegalMonetaryTotal>
+    <isdoc:TaxExclusiveAmount>-5060.00</isdoc:TaxExclusiveAmount>
+    <isdoc:TaxExclusiveAmountCurr>-200.00</isdoc:TaxExclusiveAmountCurr>
+    <isdoc:TaxInclusiveAmount>-5060.00</isdoc:TaxInclusiveAmount>
+    <isdoc:TaxInclusiveAmountCurr>-200.00</isdoc:TaxInclusiveAmountCurr>
+    <isdoc:PayableRoundingAmount>0</isdoc:PayableRoundingAmount>
+    <isdoc:PaidDepositsAmount>0</isdoc:PaidDepositsAmount>
+    <isdoc:PayableAmount>-5060.00</isdoc:PayableAmount>
+    <isdoc:PayableAmountCurr>-200.00</isdoc:PayableAmountCurr>
+  </isdoc:LegalMonetaryTotal>
+  <isdoc:PaymentMeans>
+    <isdoc:Payment>
+      <isdoc:PaidAmount>-200.00</isdoc:PaidAmount>
+      <isdoc:PaymentMeansCode>31</isdoc:PaymentMeansCode>
+      <isdoc:Details>
+        <isdoc:PaymentDueDate>2026-10-15</isdoc:PaymentDueDate>
+        <isdoc:IBAN>SK3112000000198742637541</isdoc:IBAN>
+        <isdoc:BIC>SUBASKBX</isdoc:BIC>
+        <isdoc:VariableSymbol>2026003</isdoc:VariableSymbol>
+      </isdoc:Details>
+    </isdoc:Payment>
+  </isdoc:PaymentMeans>
+</isdoc:Invoice>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="http://isdoc.cz/namespace/2013" version="6.0.2">
+  <DocumentType>1</DocumentType>
+  <ID>FV-2026-0311</ID>
+  <UUID>6B1E7A52-3C0D-4E8F-9A21-5D4C3B2A1F00</UUID>
+  <IssuingSystem>ISDOC Reader – vzorový generátor</IssuingSystem>
+  <IssueDate>2026-10-10</IssueDate>
+  <TaxPointDate>2026-10-08</TaxPointDate>
+  <VATApplicable>true</VATApplicable>
+  <ElectronicPossibilityAgreementReference>Rámcová smlouva č. RS-2025-17, čl. 6</ElectronicPossibilityAgreementReference>
+  <Note>Fakturujeme Vám na základě objednávky OBJ-2026-0458. Záloha uhrazena zálohovou fakturou ZF-2026-0042 dne 15. 9. 2026.</Note>
+  <LocalCurrencyCode>CZK</LocalCurrencyCode>
+  <CurrRate>1</CurrRate>
+  <RefCurrRate>1</RefCurrRate>
+  <AccountingSupplierParty>
+    <Party>
+      <PartyIdentification>
+        <ID>27074358</ID>
+      </PartyIdentification>
+      <PartyName>
+        <Name>Vzorová Softwarová s.r.o.</Name>
+      </PartyName>
+      <PostalAddress>
+        <StreetName>Na Příkopě</StreetName>
+        <BuildingNumber>988/31</BuildingNumber>
+        <CityName>Praha 1</CityName>
+        <PostalZone>110 00</PostalZone>
+        <Country>
+          <IdentificationCode>CZ</IdentificationCode>
+          <Name>Česká republika</Name>
+        </Country>
+      </PostalAddress>
+      <PartyTaxScheme>
+        <CompanyID>CZ27074358</CompanyID>
+        <TaxScheme>VAT</TaxScheme>
+      </PartyTaxScheme>
+      <RegisterIdentification>
+        <Preformatted>Zapsáno v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 123456</Preformatted>
+      </RegisterIdentification>
+      <Contact>
+        <Name>Petra Svobodová</Name>
+        <Telephone>+420 222 333 444</Telephone>
+        <ElectronicMail>fakturace@vzorova-softwarova.example</ElectronicMail>
+      </Contact>
+    </Party>
+  </AccountingSupplierParty>
+  <AccountingCustomerParty>
+    <Party>
+      <PartyIdentification>
+        <ID>25596641</ID>
+      </PartyIdentification>
+      <PartyName>
+        <Name>Testovací Odběratel a.s.</Name>
+      </PartyName>
+      <PostalAddress>
+        <StreetName>Kounicova</StreetName>
+        <BuildingNumber>688/26</BuildingNumber>
+        <CityName>Brno</CityName>
+        <PostalZone>602 00</PostalZone>
+        <Country>
+          <IdentificationCode>CZ</IdentificationCode>
+          <Name>Česká republika</Name>
+        </Country>
+      </PostalAddress>
+      <PartyTaxScheme>
+        <CompanyID>CZ25596641</CompanyID>
+        <TaxScheme>VAT</TaxScheme>
+      </PartyTaxScheme>
+      <Contact>
+        <Name>Ing. Tomáš Dvořák</Name>
+        <ElectronicMail>uctarna@testovaci-odberatel.example</ElectronicMail>
+      </Contact>
+    </Party>
+  </AccountingCustomerParty>
+  <OrderReferences>
+    <OrderReference id="o1">
+      <SalesOrderID>OBJ-2026-0458</SalesOrderID>
+      <IssueDate>2026-09-12</IssueDate>
+    </OrderReference>
+  </OrderReferences>
+  <DeliveryNoteReferences>
+    <DeliveryNoteReference id="d1">
+      <ID>DL-2026-0311</ID>
+      <IssueDate>2026-10-08</IssueDate>
+    </DeliveryNoteReference>
+  </DeliveryNoteReferences>
+  <InvoiceLines>
+    <InvoiceLine>
+      <ID>1</ID>
+      <InvoicedQuantity unitCode="HUR">24</InvoicedQuantity>
+      <LineExtensionAmount>34800.00</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>42108.00</LineExtensionAmountTaxInclusive>
+      <LineExtensionTaxAmount>7308.00</LineExtensionTaxAmount>
+      <UnitPrice>1450.00</UnitPrice>
+      <UnitPriceTaxInclusive>1754.50</UnitPriceTaxInclusive>
+      <ClassifiedTaxCategory>
+        <Percent>21</Percent>
+        <VATCalculationMethod>0</VATCalculationMethod>
+        <VATApplicable>true</VATApplicable>
+      </ClassifiedTaxCategory>
+      <Item>
+        <Description>Vývoj modulu fakturace</Description>
+        <SellersItemIdentification>
+          <ID>SRV-DEV</ID>
+        </SellersItemIdentification>
+      </Item>
+    </InvoiceLine>
+    <InvoiceLine>
+      <ID>2</ID>
+      <InvoicedQuantity unitCode="C62">1</InvoicedQuantity>
+      <LineExtensionAmount>9900.00</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>11979.00</LineExtensionAmountTaxInclusive>
+      <LineExtensionTaxAmount>2079.00</LineExtensionTaxAmount>
+      <UnitPrice>9900.00</UnitPrice>
+      <UnitPriceTaxInclusive>11979.00</UnitPriceTaxInclusive>
+      <ClassifiedTaxCategory>
+        <Percent>21</Percent>
+        <VATCalculationMethod>0</VATCalculationMethod>
+        <VATApplicable>true</VATApplicable>
+      </ClassifiedTaxCategory>
+      <Item>
+        <Description>Licence ISDOC Server na 12 měsíců</Description>
+        <SellersItemIdentification>
+          <ID>LIC-12M</ID>
+        </SellersItemIdentification>
+      </Item>
+    </InvoiceLine>
+    <InvoiceLine>
+      <ID>3</ID>
+      <InvoicedQuantity unitCode="DAY">1</InvoicedQuantity>
+      <LineExtensionAmount>8500.00</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>10285.00</LineExtensionAmountTaxInclusive>
+      <LineExtensionTaxAmount>1785.00</LineExtensionTaxAmount>
+      <UnitPrice>8500.00</UnitPrice>
+      <UnitPriceTaxInclusive>10285.00</UnitPriceTaxInclusive>
+      <ClassifiedTaxCategory>
+        <Percent>21</Percent>
+        <VATCalculationMethod>0</VATCalculationMethod>
+        <VATApplicable>true</VATApplicable>
+      </ClassifiedTaxCategory>
+      <Item>
+        <Description>Školení uživatelů (1 den, max. 8 osob)</Description>
+        <SellersItemIdentification>
+          <ID>SKOL-1D</ID>
+        </SellersItemIdentification>
+      </Item>
+    </InvoiceLine>
+    <InvoiceLine>
+      <ID>4</ID>
+      <InvoicedQuantity unitCode="C62">3</InvoicedQuantity>
+      <LineExtensionAmount>1170.00</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>1310.40</LineExtensionAmountTaxInclusive>
+      <LineExtensionTaxAmount>140.40</LineExtensionTaxAmount>
+      <UnitPrice>390.00</UnitPrice>
+      <UnitPriceTaxInclusive>436.80</UnitPriceTaxInclusive>
+      <ClassifiedTaxCategory>
+        <Percent>12</Percent>
+        <VATCalculationMethod>0</VATCalculationMethod>
+        <VATApplicable>true</VATApplicable>
+      </ClassifiedTaxCategory>
+      <Item>
+        <Description>Příručka uživatele – tištěná verze</Description>
+        <SellersItemIdentification>
+          <ID>KNIHA-01</ID>
+        </SellersItemIdentification>
+      </Item>
+    </InvoiceLine>
+    <InvoiceLine>
+      <ID>5</ID>
+      <InvoicedQuantity unitCode="KMT">180</InvoicedQuantity>
+      <LineExtensionAmount>1008.00</LineExtensionAmount>
+      <LineExtensionAmountTaxInclusive>1219.68</LineExtensionAmountTaxInclusive>
+      <LineExtensionTaxAmount>211.68</LineExtensionTaxAmount>
+      <UnitPrice>5.60</UnitPrice>
+      <UnitPriceTaxInclusive>6.78</UnitPriceTaxInclusive>
+      <ClassifiedTaxCategory>
+        <Percent>21</Percent>
+        <VATCalculationMethod>0</VATCalculationMethod>
+        <VATApplicable>true</VATApplicable>
+      </ClassifiedTaxCategory>
+      <Item>
+        <Description>Cestovné Praha – Brno – Praha</Description>
+        <SellersItemIdentification>
+          <ID>CEST</ID>
+        </SellersItemIdentification>
+      </Item>
+    </InvoiceLine>
+  </InvoiceLines>
+  <TaxTotal>
+    <TaxSubTotal>
+      <TaxableAmount>54208.00</TaxableAmount>
+      <TaxAmount>11383.68</TaxAmount>
+      <TaxInclusiveAmount>65591.68</TaxInclusiveAmount>
+      <AlreadyClaimedTaxableAmount>0</AlreadyClaimedTaxableAmount>
+      <AlreadyClaimedTaxAmount>0</AlreadyClaimedTaxAmount>
+      <AlreadyClaimedTaxInclusiveAmount>0</AlreadyClaimedTaxInclusiveAmount>
+      <DifferenceTaxableAmount>54208.00</DifferenceTaxableAmount>
+      <DifferenceTaxAmount>11383.68</DifferenceTaxAmount>
+      <DifferenceTaxInclusiveAmount>65591.68</DifferenceTaxInclusiveAmount>
+      <TaxCategory>
+        <Percent>21</Percent>
+      </TaxCategory>
+    </TaxSubTotal>
+    <TaxSubTotal>
+      <TaxableAmount>1170.00</TaxableAmount>
+      <TaxAmount>140.40</TaxAmount>
+      <TaxInclusiveAmount>1310.40</TaxInclusiveAmount>
+      <AlreadyClaimedTaxableAmount>0</AlreadyClaimedTaxableAmount>
+      <AlreadyClaimedTaxAmount>0</AlreadyClaimedTaxAmount>
+      <AlreadyClaimedTaxInclusiveAmount>0</AlreadyClaimedTaxInclusiveAmount>
+      <DifferenceTaxableAmount>1170.00</DifferenceTaxableAmount>
+      <DifferenceTaxAmount>140.40</DifferenceTaxAmount>
+      <DifferenceTaxInclusiveAmount>1310.40</DifferenceTaxInclusiveAmount>
+      <TaxCategory>
+        <Percent>12</Percent>
+      </TaxCategory>
+    </TaxSubTotal>
+    <TaxAmount>11524.08</TaxAmount>
+  </TaxTotal>
+  <LegalMonetaryTotal>
+    <TaxExclusiveAmount>55378.00</TaxExclusiveAmount>
+    <TaxInclusiveAmount>66902.08</TaxInclusiveAmount>
+    <AlreadyClaimedTaxExclusiveAmount>0</AlreadyClaimedTaxExclusiveAmount>
+    <AlreadyClaimedTaxInclusiveAmount>0</AlreadyClaimedTaxInclusiveAmount>
+    <DifferenceTaxExclusiveAmount>55378.00</DifferenceTaxExclusiveAmount>
+    <DifferenceTaxInclusiveAmount>66902.08</DifferenceTaxInclusiveAmount>
+    <PayableRoundingAmount>-0.08</PayableRoundingAmount>
+    <PaidDepositsAmount>10000.00</PaidDepositsAmount>
+    <PayableAmount>56902.00</PayableAmount>
+  </LegalMonetaryTotal>
+  <PaymentMeans>
+    <Payment>
+      <PaidAmount>56902.00</PaidAmount>
+      <PaymentMeansCode>42</PaymentMeansCode>
+      <Details>
+        <PaymentDueDate>2026-10-24</PaymentDueDate>
+        <ID>2001234567</ID>
+        <BankCode>2010</BankCode>
+        <Name>Fio banka, a.s.</Name>
+        <IBAN>CZ2420100000002001234567</IBAN>
+        <BIC>FIOBCZPP</BIC>
+        <VariableSymbol>20260311</VariableSymbol>
+        <ConstantSymbol>0308</ConstantSymbol>
+      </Details>
+    </Payment>
+  </PaymentMeans>
+</Invoice>
