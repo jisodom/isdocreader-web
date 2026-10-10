@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Podpora – ISDOC Reader</title>
+  <meta name="description" content="Podpora a časté dotazy k aplikaci ISDOC Reader pro macOS.">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img src="icon.png" alt="">ISDOC Reader</a>
+      <nav>
+        <a href="index.html">Úvod</a>
+        <a href="support.html" aria-current="page">Podpora</a>
+        <a href="privacy.html">Soukromí</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article>
+      <h1>Podpora</h1>
+      <p class="meta">ISDOC Reader pro macOS 14 Sonoma a novější</p>
+
+      <div class="contact">
+        Máte dotaz, našli jste chybu nebo fakturu, kterou aplikace nezobrazí správně? Napište na
+        <strong>support@jisdom.cz</strong>. Pokud je to možné, přiložte problematický soubor – pomůže to chybu rychle najít.
+      </div>
+
+      <h2>Časté dotazy</h2>
+
+      <details>
+        <summary>Jaké soubory aplikace otevře?</summary>
+        <p>Faktury ve formátu ISDOC verze 5.x a 6.x (přípona <code>.isdoc</code>) a balíčky ISDOCX (přípona <code>.isdocx</code>), které kromě faktury obsahují i přílohy, například PDF.</p>
+      </details>
+
+      <details>
+        <summary>Jak fakturu otevřu?</summary>
+        <p>Dvojklikem na soubor ve Finderu, přetažením souboru na ikonu aplikace, nebo v aplikaci přes nabídku <strong>Soubor → Otevřít</strong>.</p>
+        <p>Pokud se soubor otevírá v jiné aplikaci, klikněte na něj pravým tlačítkem, zvolte <strong>Informace</strong>, v části <strong>Otevřít v aplikaci</strong> vyberte ISDOC Reader a klikněte na <strong>Změnit vše…</strong>.</p>
+      </details>
+
+      <details>
+        <summary>Náhled mezerníkem (Quick Look) nefunguje</summary>
+        <ol>
+          <li>Aplikaci alespoň jednou spusťte – tím se náhled v systému zaregistruje.</li>
+          <li>Otevřete <strong>Nastavení systému → Obecné → Položky při přihlášení a rozšíření</strong>, u položky <strong>Quick Look</strong> klikněte na ikonu informací a zkontrolujte, že je ISDOC Reader zapnutý.</li>
+          <li>Pokud to nepomůže, odhlaste se a znovu přihlaste, případně restartujte Mac.</li>
+        </ol>
+      </details>
+
+      <details>
+        <summary>Jak uložím přílohu z ISDOCX?</summary>
+        <p>Otevřete fakturu, v horní liště přepněte na záložku <strong>Přílohy</strong>, vyberte přílohu a klikněte na <strong>Uložit…</strong>.</p>
+      </details>
+
+      <details>
+        <summary>Ověřuje aplikace elektronický podpis?</summary>
+        <p>Aplikace zjistí, zda je faktura elektronicky podepsaná, a zobrazí informace o certifikátu – kdo podepsal, kdo certifikát vydal a jeho platnost. Platnost samotného podpisu (zda dokument nebyl po podpisu změněn) kryptograficky neověřuje.</p>
+      </details>
+
+      <details>
+        <summary>Odesílá aplikace moje faktury někam?</summary>
+        <p>Ne. Aplikace pracuje zcela offline a nic neodesílá. Podrobnosti najdete v <a href="privacy.html">zásadách ochrany soukromí</a>.</p>
+      </details>
+
+      <details>
+        <summary>Faktura se nezobrazí nebo jsou údaje špatně</summary>
+        <p>Některé účetní programy vytvářejí soubory, které se od standardu ISDOC odchylují. Pošlete nám prosím soubor na adresu výše – podporu rádi doplníme.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <span>© 2026 Jiří Sodomka</span>
+      <span><a href="support.html">Podpora</a> · <a href="privacy.html">Zásady ochrany soukromí</a></span>
+    </div>
+  </footer>
+</body>
+</html>
